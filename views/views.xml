@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+      <record model="ir.ui.view" id="view_sales_status_form">
+        <field name="name">view_sales_status.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+
+        <field name="arch" type="xml">
+          <field name="state" position="replace"> <!-- position replace, after, before, inside, atribute -->
+            <field name="state" widget="statusbar" statusbar_visible="draft,sent,sale,approve1"/> <!-- approve1 didapat dari id -->
+          </field>
+        </field>
+      </record>
+  </data>
+</odoo>

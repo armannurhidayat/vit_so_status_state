@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vit_so_status_vit_so_status,vit_so_status.vit_so_status,model_vit_so_status_vit_so_status,,1,0,0,0
